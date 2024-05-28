@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manage Pets</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Manage Pets</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="pets_crud.html">Manage Pets</a></li>
+                <li><a href="analytics.html">Analytics</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Pet Data CRUD Operations</h2>
+        <form id="petForm">
+            <label for="petName">Pet Name:</label>
+            <input type="text" id="petName" name="petName" required><br><br>
+            <label for="petType">Pet Type:</label>
+            <input type="text" id="petType" name="petType" required><br><br>
+            <label for="petAge">Pet Age:</label>
+            <input type="number" id="petAge" name="petAge" required><br><br>
+            <button type="submit">Add Pet</button>
+        </form>
+        <div id="petList">
+            <h3>Pet List</h3>
+            <!-- Pet list will be populated here -->
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2024 Pets Website</p>
+    </footer>
+</body>
+</html>
+
